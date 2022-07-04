@@ -13,3 +13,6 @@ Route::get('/update', [DoctorController::class,"update"]);
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+// new changes
